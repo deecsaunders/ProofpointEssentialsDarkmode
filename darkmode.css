@@ -101,7 +101,7 @@ div.colourscheme_darkblue .MuiListItemSecondaryAction-root button {
   border-right: 1px solid #1b2226;
 }
 
-
+.ppe-table-logs #find-box-extra,
 body.container-fluid .ppe-form-section, body.container-lg .ppe-form-section, body.container-md .ppe-form-section, body.container-sm .ppe-form-section, body.container-xl .ppe-form-section, .ppe-table-domains .ppe-table .topactions, .dropdown-divider, #r-dashboard .chart-container>footer, .dataTables_wrapper .pagination-bottom {
   border-top: 1px solid #1b2226;
 }
@@ -109,7 +109,7 @@ body.container-fluid .ppe-form-section, body.container-lg .ppe-form-section, bod
 #r-page .authentication-page .ppe-form hr {
   border: 1px solid #1b2226;
 }
-
+.ppe-table-logs #find-box-extra,
 .ppe-companyprofile-settings .profile-account-info, .table-products .product-row, .ppe-table-domains .ppe-table .topactions, .table-domains .domain-row, .ppe-domains-table .table-header-actions-container, .ppe-table-functionalaccounts table thead tr:first-child, .ppe-table-smtpaccounts table thead tr:first-child, .ppe-table-useraccounts table thead tr:first-child, #innerpagenav ul, #innerpagenav2 ul, .ppe-table-filters .topactions, .dataTables_wrapper table thead, .main-table_wrapper table thead, .table-container table thead, .ppe-table-customers .topactions, .dataTables_wrapper .pagination-top, .dataTables_wrapper table tbody tr, .main-table_wrapper table tbody tr, .table-container table tbody tr,.ppe-user-profile-settings .disabledelete {
   border-bottom: 1px solid #1b2226;
 }
