@@ -15,7 +15,13 @@ body.container-fluid.colourscheme_darkblue textarea:not([class*=Mui], [class*=Mu
 body.colourscheme_darkblue textarea:not([class*=Mui], [class*=MuiInputBase-input], .is-hidden):active,
 .MuiInputLabel-root,
 .jss115,
-.jss111
+.jss111,
+.MuiTypography-overline,
+.drawer__content,
+.drawer__content h6,
+.drawer__content p,
+.drawer__content span,
+.drawer__content input
  {
   color: #ffffff !important;
   color: rgba(255 255 255 / 100%) !important;
@@ -53,6 +59,8 @@ body.container-fluid footer#footer p, body.container-lg footer#footer p, body.co
   color: #485860;
 }
 
+.login .loginPage .email-input, .login .loginPage .password,
+.colourscheme_darkblue .login__background, body.colourscheme_darkblue .login__background, body.container-fluid.colourscheme_darkblue .login__background, div.colourscheme_darkblue .login__background,
 .mobile-widget .mobile-widget--input #mobile_number_prefix:disabled:hover, select:disabled:hover,
 header#header #downshift-simple-menu div[tabindex]:hover,
 select:hover,
@@ -62,15 +70,24 @@ body.container-fluid.colourscheme_darkblue textarea:not([class*=Mui], [class*=Mu
 body.container-fluid.colourscheme_darkblue textarea:not([class*=Mui], [class*=MuiInputBase-input], .is-hidden):active,
 body.colourscheme_darkblue textarea:not([class*=Mui], [class*=MuiInputBase-input], .is-hidden):active,
 header#header div.header-btn-group div.nav-item div.dropdown-menu .dropdown-item:hover, aside#sidebar section a.active, aside#sidebar section a:hover, aside#sidebar hr {
-  background-color: #1C252A;
+  background-color: #1C252A!important;
 }
 
+#dialog-overlay, .dialog-overlay, .information-overlay, .modal-helper-overlay, .ui-dialog-overlay, .ui-widget-overlay{
+  background-color: #00000091;
+}
+
+
+.login .loginPage,
+.drawer__content,
+aside#sidebar.collapsed section div.nav-menu,
 .mobile-widget .mobile-widget--input #mobile_number_prefix:disabled, select:disabled,
 .MuiInput-formControl,
 .Mui-focused,
 .MuiInput-input,
 .drawer__content section,
 .MuiButton-textPrimary:hover,
+.drawer__actionbar,
 .drawer__actionbar--block-buttons,
 select,
 .dropdown-menu, .dropdown-menu button,
@@ -124,6 +141,7 @@ body.container-fluid .ppe-form-section, body.container-lg .ppe-form-section, bod
   height: 68px;
 }
 
+.login .loginPage .email-input, .login .loginPage .password,
 .colourscheme_darkblue .range_inputs button.cancelBtn:not([class^=Mui]), .colourscheme_darkblue .ranges ul li:not([class^=Mui]), .colourscheme_darkblue .ui-datepicker-buttonpane button:not([class^=Mui]), .colourscheme_darkblue [class*=btn-secondary]:not([class^=Mui]), .colourscheme_darkblue [class*=btn-text]:not([class^=Mui]), body.colourscheme_darkblue .range_inputs button.cancelBtn:not([class^=Mui]), body.colourscheme_darkblue .ranges ul li:not([class^=Mui]), body.colourscheme_darkblue .ui-datepicker-buttonpane button:not([class^=Mui]), body.colourscheme_darkblue [class*=btn-secondary]:not([class^=Mui]), body.colourscheme_darkblue [class*=btn-text]:not([class^=Mui]), body.container-fluid.colourscheme_darkblue .range_inputs button.cancelBtn:not([class^=Mui]), body.container-fluid.colourscheme_darkblue .ranges ul li:not([class^=Mui]), body.container-fluid.colourscheme_darkblue .ui-datepicker-buttonpane button:not([class^=Mui]), body.container-fluid.colourscheme_darkblue [class*=btn-secondary]:not([class^=Mui]), body.container-fluid.colourscheme_darkblue [class*=btn-text]:not([class^=Mui]), div.colourscheme_darkblue .range_inputs button.cancelBtn:not([class^=Mui]), div.colourscheme_darkblue .ranges ul li:not([class^=Mui]), div.colourscheme_darkblue .ui-datepicker-buttonpane button:not([class^=Mui]), div.colourscheme_darkblue [class*=btn-secondary]:not([class^=Mui]), div.colourscheme_darkblue [class*=btn-text]:not([class^=Mui]) {
   border: none;
 }
