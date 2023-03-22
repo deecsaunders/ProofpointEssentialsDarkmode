@@ -11,7 +11,7 @@ CSS files containing styles for a Darkmode and ModernUI Proofpoint Essentials ex
 7. Copy and paste the code from the darkmode.css file in to the code box
 8. click save
 
-# Submit bugs here:
+# Submit bugs and feedback here:
 [https://trello.com/b/IuXYpaeo/darkmode-plugin](https://trello.com/invite/b/IuXYpaeo/ATTIa76b8cabcdad1f11c9dba6f21d8a1adc4698AB8D/darkmode-plugin)
 
 
