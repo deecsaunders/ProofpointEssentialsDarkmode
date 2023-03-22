@@ -1,5 +1,5 @@
 # Darkmode Styles
-A CSS file containing styles for a darkmode Proofpoint Essentials experience
+CSS files containing styles for a Darkmode and ModernUI Proofpoint Essentials experience
 
 # How To Use:
 1. Install the stylish plugin: https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
